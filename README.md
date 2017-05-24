@@ -13,7 +13,7 @@ properties needed for staging remote including the host ip address.
 	
 3. There is an extra manual step to be taken after the instance has been started that I couldn't automate which is going to:
 
-	Control Panel → Configuration → System Settings → Foundation → Tunnel Auth Verifier → /api/liferay/do
+		Control Panel → Configuration → System Settings → Foundation → Tunnel Auth Verifier → /api/liferay/do
 
 	and adding the host ip address in the Hosts allowed field. The host address will be printed out during the image build 		along with all the other properties in the portal-ext.properties.
 
